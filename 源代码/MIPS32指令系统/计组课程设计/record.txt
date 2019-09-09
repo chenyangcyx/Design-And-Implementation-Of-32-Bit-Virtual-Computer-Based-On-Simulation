@@ -1,0 +1,114 @@
+-------BEGIN-------
+
+执行时间：2018-10-08 00:50:38
+1-	addu rd, rs, rt	rd <- rs + rt
+	rd=$v1, rs=$at, rt=$v0
+
+执行时间：2018-10-08 00:50:38
+2-	subu rd, rs, rt	rd <- rs - rt
+	rd=$a2, rs=$v1, rt=$a1
+
+执行时间：2018-10-08 00:50:38
+3-	and rd, rs, rt	rd <- rs & rt
+	rd=$t1, rs=$a3, rt=$t0
+
+执行时间：2018-10-08 00:50:38
+4-	or rd, rs, rt	rd <- rs | rt
+	rd=$zero, rs=$t2, rt=$t3
+
+执行时间：2018-10-08 00:50:38
+5-	or rd, rs, rt	rd <- rs | rt
+	rd=$t4, rs=$t2, rt=$t3
+
+执行时间：2018-10-08 00:50:38
+6-	xor rd, rs, rt	rd <- rs ^ rt
+	rd=$t7, rs=$t5, rt=$t6
+
+执行时间：2018-10-08 00:50:38
+7-	nor rd, rs, rt	rd <- ~(rs | rt)
+	rd=$s2, rs=$t7, rt=$s1
+
+执行时间：2018-10-08 00:50:38
+8-	and rd, rs, rt	rd <- rs & rt
+	rd=$zero, rs=$a3, rt=$t0
+
+执行时间：2018-10-08 00:50:38
+9-	sll rd, rt, shamt	rd <- rt + shamt
+	rd=$s4, rt=$s3, shamt=2
+
+执行时间：2018-10-08 00:50:38
+10-	srl rd, rt, shamt	rd <- rt >> shamt
+	rd=$s6, rt=$s5, shamt=4
+
+执行时间：2018-10-08 00:50:38
+11-	addi rs, rt, imm	rt <- rs + (sign-extend)immediate
+	rs=$s7, rt=$t8, imm=27218
+
+执行时间：2018-10-08 00:50:38
+12-	ori rs, rt, imm	rt <- rs | (zero-extend)immediate
+	rs=$k1, rt=$gp, imm=21606
+
+执行时间：2018-10-08 00:50:38
+13-	xori rs, rt, imm	rt <- rs ^ (zero-extend)immediate
+	rs=$sp, rt=$fp, imm=20876
+
+-------END-------
+
+
+-------BEGIN-------
+
+执行时间：2018-10-08 00:51:23
+1-	addu rd, rs, rt	rd <- rs + rt
+	rd=$v1, rs=$at, rt=$v0
+
+执行时间：2018-10-08 00:51:23
+2-	subu rd, rs, rt	rd <- rs - rt
+	rd=$a2, rs=$v1, rt=$a1
+
+执行时间：2018-10-08 00:51:23
+3-	and rd, rs, rt	rd <- rs & rt
+	rd=$t1, rs=$a3, rt=$t0
+
+执行时间：2018-10-08 00:51:23
+4-	or rd, rs, rt	rd <- rs | rt
+	rd=$zero, rs=$t2, rt=$t3
+
+执行时间：2018-10-08 00:51:23
+5-	or rd, rs, rt	rd <- rs | rt
+	rd=$t4, rs=$t2, rt=$t3
+
+执行时间：2018-10-08 00:51:23
+6-	xor rd, rs, rt	rd <- rs ^ rt
+	rd=$t7, rs=$t5, rt=$t6
+
+执行时间：2018-10-08 00:51:23
+7-	nor rd, rs, rt	rd <- ~(rs | rt)
+	rd=$s2, rs=$t7, rt=$s1
+
+执行时间：2018-10-08 00:51:23
+8-	and rd, rs, rt	rd <- rs & rt
+	rd=$zero, rs=$a3, rt=$t0
+
+执行时间：2018-10-08 00:51:23
+9-	sll rd, rt, shamt	rd <- rt + shamt
+	rd=$s4, rt=$s3, shamt=2
+
+执行时间：2018-10-08 00:51:23
+10-	srl rd, rt, shamt	rd <- rt >> shamt
+	rd=$s6, rt=$s5, shamt=4
+
+执行时间：2018-10-08 00:51:23
+11-	addi rs, rt, imm	rt <- rs + (sign-extend)immediate
+	rs=$s7, rt=$t8, imm=27218
+
+执行时间：2018-10-08 00:51:23
+12-	ori rs, rt, imm	rt <- rs | (zero-extend)immediate
+	rs=$k1, rt=$gp, imm=21606
+
+执行时间：2018-10-08 00:51:23
+13-	xori rs, rt, imm	rt <- rs ^ (zero-extend)immediate
+	rs=$sp, rt=$fp, imm=20876
+
+-------END-------
+
+

@@ -1,0 +1,14 @@
+13	                                  F D E M W 
+12	                                F D E M W 
+11	                              F D E M W 
+10	                            F D E M W 
+9	                          F D E M W 
+8	                        F D E M W 
+7	                  F U U D B 
+6	                F D U U E M W 
+5	              F D E M W 
+4	            F D E M W 
+3	          F D B 
+2	    F U U D E M W 
+1	  F D U U E M W 
+0	F D E M W 
